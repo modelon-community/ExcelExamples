@@ -1,92 +1,13 @@
 # ExcelExamples
 
-
+This repository contains ready-to run examples to showcase the new Excel add-in for Modelon Impact.
 
 ## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+To run the examples, you need to 
+- Download the Modelon Impact workspace [ExcelDemo](https://jhmi-staging.modelon.com/hub/user-redirect/impact/customizations/workspace_management/index.html?share=eyJkZWZpbml0aW9uIjp7Im5hbWUiOiJFeGNlbERlbW8iLCJkZXNjcmlwdGlvbiI6IiIsImRlZmF1bHRQcm9qZWN0SWQiOiJmMjJjYWUzOGIyMDhhM2EyZmEyNDNkN2UxODMzNDA3ODQyMTQ3OGQ3IiwicHJvamVjdHMiOlt7InJlZmVyZW5jZSI6eyJpZCI6ImYyMmNhZTM4YjIwOGEzYTJmYTI0M2Q3ZTE4MzM0MDc4NDIxNDc4ZDciLCJ2Y3NVcmkiOiJnaXQraHR0cHM6Ly9naXRsYWIubW9kZWxvbi5jb20vbW9kZWxvbi1wcm9kdWN0cy9wZC1kZXYvZXhjZWxleGFtcGxlc0BtYWluIn0sImRpc2FibGVkIjpmYWxzZSwiZGlzYWJsZWRDb250ZW50IjpbXX1dLCJkZXBlbmRlbmNpZXMiOlt7InJlZmVyZW5jZSI6eyJpZCI6ImZlYzQzZjc3OTI1OTQ5YmQ3ZTdjMGYxMGFjNDllYmMxMTg5ZGM4NDAiLCJuYW1lIjoiTW9kZWxpY2EiLCJ2ZXJzaW9uIjoiMy4yLjMifSwiZGlzYWJsZWQiOnRydWUsImRpc2FibGVkQ29udGVudCI6W119LHsicmVmZXJlbmNlIjp7ImlkIjoiYWMwNGE1ZGE5N2JjMmUxMWJmZmI3ZjQxYjI0ODVkYTM0Nzg0NmRmNiIsIm5hbWUiOiJNb2RlbGljYSIsInZlcnNpb24iOiI0LjAuMCJ9LCJkaXNhYmxlZCI6ZmFsc2UsImRpc2FibGVkQ29udGVudCI6W119LHsicmVmZXJlbmNlIjp7ImlkIjoiYzU2OWYwMzA0ZmFmNGEzNTBlNTIyNjAzYjQ1NDQ3NDBmOWEzMmI5ZSIsIm5hbWUiOiJNb2RlbG9uIiwidmVyc2lvbiI6IjQuMy4wK2J1aWxkLjE4In0sImRpc2FibGVkIjpmYWxzZSwiZGlzYWJsZWRDb250ZW50IjpbXX0seyJyZWZlcmVuY2UiOnsiaWQiOiJhYmJhNTc5MmUxMjhkZWY5YzkxNWJiNzc0MGQ4MDE0YjhhYTczZDgzIiwibmFtZSI6IkVsZWN0cmlmaWNhdGlvbiIsInZlcnNpb24iOiIxLjEwLjArYnVpbGQuMjIifSwiZGlzYWJsZWQiOmZhbHNlLCJkaXNhYmxlZENvbnRlbnQiOltdfV0sImZvcm1hdCI6IjEuMC4wIiwiZ3VpZCI6ImYzMTk3ZGEyMDE4ZjRhNTdiN2VlZWZiMWM2MjFmYWEwIiwiY3JlYXRlZEJ5IjoiYWViMTE3MWEtNTRkOC00MzFhLWJlMWItMDc4YjM1Zjc1NTc0IiwiY3JlYXRlZEF0IjoxNjg1NTI1OTA2ODIwfX0=)
+- Install the Modelon Impact Excel add-in (instructions available in https://aeteam.modelon.com/helpcenter_VLF)
+- Open an Excel sheet in the ExcelSheets directory to run it using the Modelon Impact Excel add-in 
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.modelon.com/modelon-products/pd-dev/excelexamples.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.modelon.com/modelon-products/pd-dev/excelexamples/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Available examples:
+- SimpleBatteryCharging
