@@ -1,0 +1,64 @@
+{
+  "name": "ExcelExamples",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.18"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "aea76f9b0e624c70a5919ef50aa94c44"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "aa0bf91c64494074bf2f8851a254c48f"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "fe93a453a3274d9e90fdd9632a20fd59"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "014207be43f04d11ab652f9ae2e6240c"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "4cb1e85a67ac463ea947abac608bb2ac"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "0dbf5bc993c9441191e9b2848fd189fd"
+    },
+    {
+      "relpath": "Examples",
+      "contentType": "MODELICA",
+      "name": "Examples",
+      "defaultDisabled": false,
+      "id": "f8d46e9a22614fa5a37a5b5479f8d1d2"
+    }
+  ],
+  "executionOptions": []
+}
