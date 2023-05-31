@@ -11,6 +11,7 @@ model SimpleBatteryCharging
 
   .Electrification.Batteries.Examples.Applications.ElectricCar battery(
     ns=100,
+    np=26,
     redeclare .Electrification.Batteries.Core.Examples.Modular core(
       vCellMax=4.15,
       vCellMin=2.0,
@@ -25,8 +26,8 @@ model SimpleBatteryCharging
     enable_thermal_port=false,
     display_name=true,
     fixed_temperature=true,
-    limitActionSoC=.Modelon.Types.FaultAction.Terminate,np = 26)
-    annotation (Placement(transformation(extent={{20.0,-20.0},{60.0,20.0}},rotation = 0.0,origin = {0.0,0.0})));
+    limitActionSoC=.Modelon.Types.FaultAction.Terminate)
+    annotation (Placement(transformation(extent={{20,-20},{60,20}})));
 equation
   connect(charger.controlBus, battery.controlBus) annotation (Line(
       points={{-24,20},{24,20}},
