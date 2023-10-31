@@ -1,0 +1,21 @@
+{
+  "stickies" : [ "time" ],
+  "stickyPositions" : [ {
+    "component" : "battery",
+    "x" : 40.0,
+    "y" : -20.0
+  } ],
+  "plots" : [ {
+    "variables" : [ "battery.summary.e_loss" ],
+    "colors" : {
+      "battery.summary.e_loss" : [ "#ff7f0e" ]
+    },
+    "x" : -61.043255,
+    "y" : 96.19992,
+    "width" : 517.0,
+    "height" : 258.0,
+    "title" : "Battery Losses"
+  } ],
+  "version" : "1",
+  "name" : "Outputs"
+}

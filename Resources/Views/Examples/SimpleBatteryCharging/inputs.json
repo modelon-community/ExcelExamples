@@ -1,0 +1,7 @@
+{
+  "stickies" : [ "battery.np", "battery.core.capacity.Q_cap_cell_nom", "battery.core.impedance.R0", "battery.core.iCellMaxCh" ],
+  "stickyPositions" : [ ],
+  "plots" : [ ],
+  "version" : "1",
+  "name" : "Inputs"
+}
