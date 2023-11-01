@@ -4,10 +4,7 @@
   "experiment" : {
     "base" : {
       "analysis" : {
-        "variableFilters" : [ {
-          "type" : "view",
-          "value" : "Outputs"
-        } ],
+        "variableFilters" : [ ],
         "selectedType" : "dynamic",
         "choices" : [ {
           "type" : "dynamic",
@@ -76,7 +73,7 @@
   },
   "metadata" : {
     "created" : "2023-03-02T10:00:38.936Z",
-    "lastModified" : "2023-10-25T14:13:18.489218666Z",
+    "lastModified" : "2023-10-31T20:14:28.817374778Z",
     "name" : "Baseline"
   }
 }

@@ -3,12 +3,12 @@
   "format": "1.0.0",
   "dependencies": [
     {
-      "name": "Electrification",
-      "versionSpecifier": "1.10.0+build.22"
-    },
-    {
       "name": "Modelica",
       "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
     },
     {
       "name": "Modelon",
