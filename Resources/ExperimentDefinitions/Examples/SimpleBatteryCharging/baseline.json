@@ -55,13 +55,25 @@
       },
       "modifiers" : {
         "initializeFrom" : "",
-        "variables" : [ ]
+        "variables" : [ {
+          "name" : "battery.core.iCellMaxCh",
+          "expression" : "14"
+        }, {
+          "name" : "battery.core.capacity.Q_cap_cell_nom",
+          "expression" : "10874.778879717"
+        }, {
+          "name" : "battery.core.impedance.R0",
+          "expression" : "0.0380952380952381"
+        }, {
+          "name" : "battery.np",
+          "expression" : "47"
+        } ]
       }
     }
   },
   "metadata" : {
     "created" : "2023-03-02T10:00:38.936Z",
-    "lastModified" : "2023-05-11T09:02:15.235190172Z",
-    "name" : "Experiment 1"
+    "lastModified" : "2024-01-22T15:32:57.981498626Z",
+    "name" : "Baseline"
   }
 }
